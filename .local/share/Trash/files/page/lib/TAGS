@@ -1,0 +1,1153 @@
+
+../page.tcl,1073
+proc vTcl:log {msg} {vTcl:log45,1470
+proc vTcl:splash_status {string {nodots {}}} {vTcl:splash_status64,1990
+proc vTcl:splash {} {vTcl:splash71,2143
+proc vTcl:load_lib {lib} {vTcl:load_lib98,3098
+proc vTcl:load_widgets {} {vTcl:load_widgets113,3417
+proc vTcl:load_libs {libs} {vTcl:load_libs139,4358
+proc ::vTcl::load_bwidgets {} {::vTcl::load_bwidgets146,4459
+proc vTcl:setup {} {vTcl:setup157,4659
+proc vTcl:setup_meta {} {vTcl:setup_meta253,8125
+    proc exit {args} {}exit256,8181
+    proc init {argc argv} {}init257,8205
+    proc main {argc argv} {}main258,8234
+proc vTcl:setup_gui {} {vTcl:setup_gui264,8353
+proc vTclWindow.vTcl {args} {vTclWindow.vTcl349,11452
+proc vTcl:vtcl:remap {w} {vTcl:vtcl:remap476,15750
+proc vTcl:vtcl:unmap {w} {vTcl:vtcl:unmap492,16075
+proc vTcl:define_bindings {} {vTcl:define_bindings510,16458
+proc vTcl:expand_file_name {file} {vTcl:expand_file_name690,22446
+proc vTcl:main {argc argv} {vTcl:main739,24042
+proc tracer {varname args} {tracer853,28092
+proc watch {varname key op} {watch864,28321
+
+about.tcl,264
+proc vTclWindow.vTcl.about {args} {vTclWindow.vTcl.about25,1018
+proc vTcl:open_help_in_browser { } {vTcl:open_help_in_browser113,3787
+proc vTcl:fill_credits {} {vTcl:fill_credits154,5301
+proc vTclWindow.vTcl.credits {base} {vTclWindow.vTcl.credits169,5708
+
+attrbar.tcl,917
+proc vTcl:fill_font_menu {menu} {vTcl:fill_font_menu25,1055
+proc vTcl:fill_fontsize_menu {menu} {vTcl:fill_fontsize_menu48,2107
+proc vTcl:set_justify {widget option} {vTcl:set_justify58,2421
+proc vTcl:set_font {which widget option} {vTcl:set_font64,2526
+proc vTcl:widget_set_relief {relief} {vTcl:widget_set_relief91,3326
+proc vTcl:widget_set_border {border} {vTcl:widget_set_border99,3597
+proc vTcl:widget_set_anchor {anchor} {vTcl:widget_set_anchor106,3792
+proc vTcl:widget_set_pack_side {side} {vTcl:widget_set_pack_side114,4063
+proc vTcl:widget_set_fg {target} {vTcl:widget_set_fg123,4334
+proc vTcl:widget_set_bg {target} {vTcl:widget_set_bg131,4614
+proc vTcl:set_manager {mgr} {vTcl:set_manager139,4894
+proc vTcl:attrbar_color {target} {vTcl:attrbar_color151,5193
+proc vTcl:attrbar:toggle_console {} {vTcl:attrbar:toggle_console177,5878
+proc vTcl:attrbar {args} {vTcl:attrbar200,6799
+
+balloon.tcl,66
+proc vTcl:set_balloon {target message} {vTcl:set_balloon92,2810
+
+bgerror.tcl,110
+proc vTclWindow.vTcl.bgerror {base} {vTclWindow.vTcl.bgerror28,1104
+proc bgerror {error} {bgerror118,4394
+
+bind.tcl,3347
+proc vTcl:get_bind {target} {vTcl:get_bind32,1318
+proc vTclWindow.vTcl.bind {args} {vTclWindow.vTcl.bind49,1874
+proc vTclWindow.vTcl.newbind {base} {vTclWindow.vTcl.newbind426,18002
+proc vTclWindow.vTcl.newtag {base} {vTclWindow.vTcl.newtag627,25111
+    proc ::widgets_bindings::show_advanced {} {::widgets_bindings::show_advanced757,29233
+    proc {::widgets_bindings::listbox_click} {} {{::widgets_bindings::listbox_click}767,29507
+    proc {::widgets_bindings::delete_tag} {} {{::widgets_bindings::delete_tag}775,29868
+    proc {::widgets_bindings::movetag} {moveupdown} {{::widgets_bindings::movetag}799,30486
+    proc {::widgets_bindings::add_tag_to_tagslist} {tag} {{::widgets_bindings::add_tag_to_tagslist}837,31646
+    proc {::widgets_bindings::remove_tag_from_widget} {target tag} {{::widgets_bindings::remove_tag_from_widget}845,31870
+    proc {::widgets_bindings::add_tag_to_widget} {target tag} {{::widgets_bindings::add_tag_to_widget}849,31998
+    proc {::widgets_bindings::add_tag} {tag} {{::widgets_bindings::add_tag}857,32260
+    proc {::widgets_bindings::is_editable_tag} {tag} {{::widgets_bindings::is_editable_tag}867,32655
+    proc {::widgets_bindings::add_binding} {event} {{::widgets_bindings::add_binding}883,33103
+    proc {::widgets_bindings::can_change_modifier} {l index} {{::widgets_bindings::can_change_modifier}931,35035
+    proc {::widgets_bindings::change_binding} {tag event modifier} {{::widgets_bindings::change_binding}948,35389
+    proc {::widgets_bindings::delete_binding} {} {{::widgets_bindings::delete_binding}971,36070
+    proc {::widgets_bindings::enable_toolbar_buttons} {} {{::widgets_bindings::enable_toolbar_buttons}1002,37013
+    proc {::widgets_bindings::set_uistate} {} {{::widgets_bindings::set_uistate}1065,39272
+    proc get_subwidgets {target} {get_subwidgets1071,39473
+    proc {::widgets_bindings::fill_bindings} {target {change 1}} {{::widgets_bindings::fill_bindings}1081,39729
+    proc {::widgets_bindings::find_tag_event} {l index ref_tag ref_event} {{::widgets_bindings::find_tag_event}1135,41633
+    proc {::widgets_bindings::enable_editor} {enable} {{::widgets_bindings::enable_editor}1153,42092
+    proc {::widgets_bindings::init} {} {{::widgets_bindings::init}1181,43101
+    proc {::widgets_bindings::init_ui} {} {{::widgets_bindings::init_ui}1194,43384
+    proc {::widgets_bindings::right_click_modifier} {modifier} {{::widgets_bindings::right_click_modifier}1219,44069
+    proc {::widgets_bindings::save_current_binding} {} {{::widgets_bindings::save_current_binding}1243,44644
+    proc clear_current_binding {} {clear_current_binding1270,45629
+    proc {::widgets_bindings::select_binding} {} {{::widgets_bindings::select_binding}1275,45720
+    proc {::widgets_bindings::select_show_binding} {tag event} {{::widgets_bindings::select_show_binding}1318,47323
+    proc {::widgets_bindings::set_modifier_in_event} {event modifier} {{::widgets_bindings::set_modifier_in_event}1354,48402
+    proc {::widgets_bindings::show_binding} {tag event} {{::widgets_bindings::show_binding}1392,49647
+    proc {::widgets_bindings::find_event_in_sequence} \{::widgets_bindings::find_event_in_sequence}1423,50671
+    proc {::widgets_bindings::get_standard_bindtags} {target} {{::widgets_bindings::get_standard_bindtags}1466,51827
+
+callback.tcl,526
+proc vTcl:show_all_callbacks {} {vTcl:show_all_callbacks29,1114
+proc vTcl:show_callbacks {} {vTcl:show_callbacks104,3620
+proc vTcl:update_callback_list {} {vTcl:update_callback_list112,3926
+proc vTcl:callback:show {{on 1} {callbacks ""}} {vTcl:callback:show155,5376
+proc vTcl:show_function {line} {vTcl:show_function175,5964
+proc vTcl:save_callbacks {} {vTcl:save_callbacks208,7031
+proc vTcl:copy_callbacks {} {vTcl:copy_callbacks221,7395
+proc vTclWindow.vTcl.callback {args} {vTclWindow.vTcl.callback232,7623
+
+choosefont.tcl,413
+ proc ::ChooseFont::ChooseFont {{defaultFont ""}} {::ChooseFont::ChooseFont31,884
+ proc ::ChooseFont::Done {ok} {::ChooseFont::Done109,4270
+ proc ::ChooseFont::Init {{defaultFont ""}} {::ChooseFont::Init113,4385
+ proc ::ChooseFont::Click {who} {::ChooseFont::Click142,5183
+ proc ::ChooseFont::Tracer {var1 var2 op} {::ChooseFont::Tracer154,5560
+ proc ::ChooseFont::Show {} {::ChooseFont::Show184,6575
+
+close_color.tcl,223
+proc ColorNameCompare {a b} {ColorNameCompare512,10860
+proc setup_arrays {} {setup_arrays543,11922
+proc ColorDistance {x y} {ColorDistance551,12135
+proc FindClosestNamedColor {color} {FindClosestNamedColor562,12424
+
+cmp_files.tcl,130
+proc vTcl:read_split_file {file} {vTcl:read_split_file6,162
+proc vTcl:diff_two_files {file1 file2} {vTcl:diff_two_files17,384
+
+color.tcl,286
+proc vTcl:get_color {color w {t {Choose a color}}} {vTcl:get_color25,1000
+proc vTcl:show_color {widget option variable w} {vTcl:show_color73,2504
+proc vTcl:set_actuals { } {vTcl:set_actuals99,3412
+proc vTcl:set_GUI_color_defaults { fileID } {vTcl:set_GUI_color_defaults141,5240
+
+colorDlg.tcl,2494
+proc ::colorDlg::lng_en {} {::colorDlg::lng_en56,1793
+proc ::colorDlg::lng_fr {} {::colorDlg::lng_fr70,2206
+proc ::colorDlg::rgbToHsv {r g b} {::colorDlg::rgbToHsv93,3104
+proc ::colorDlg::hsvToRgb {h s v} {::colorDlg::hsvToRgb176,5072
+proc ::colorDlg::colorToRgb {color} {::colorDlg::colorToRgb210,6084
+proc ::colorDlg::rgbToColor {r g b} {::colorDlg::rgbToColor221,6465
+proc ::colorDlg::hsToXy {h s width height} {::colorDlg::hsToXy228,6755
+proc ::colorDlg::xyToHs {x y width height} {::colorDlg::xyToHs249,7334
+proc ::colorDlg::setInitialColor {value} {::colorDlg::setInitialColor270,7902
+proc ::colorDlg::setParent {value} {::colorDlg::setParent278,8267
+proc ::colorDlg::setTitle {value} {::colorDlg::setTitle288,8637
+proc ::colorDlg::buildHsmap {width height} {::colorDlg::buildHsmap296,8909
+proc ::colorDlg::updateHsmap {} {::colorDlg::updateHsmap358,10999
+proc ::colorDlg::buildBmap {h s width height} {::colorDlg::buildBmap381,11958
+proc ::colorDlg::updateBmap {} {::colorDlg::updateBmap400,12614
+proc ::colorDlg::validateHsv {name} {::colorDlg::validateHsv411,13033
+proc ::colorDlg::validateRgb {name} {::colorDlg::validateRgb448,14512
+proc ::colorDlg::validateColor {} {::colorDlg::validateColor480,15907
+proc ::colorDlg::motionHs {x y} {::colorDlg::motionHs513,17195
+proc ::colorDlg::motionB {x y} {::colorDlg::motionB553,18632
+proc ::colorDlg::ButtonPress-1 {sender key x y} {::colorDlg::ButtonPress-1596,20117
+proc ::colorDlg::ButtonRelease-1 {sender key x y} {::colorDlg::ButtonRelease-1611,20645
+proc ::colorDlg::Motion {sender key x y} {::colorDlg::Motion634,21625
+proc ::colorDlg::KeyPress {sender key} {::colorDlg::KeyPress643,22015
+proc ::colorDlg::KeyRelease {sender key} {::colorDlg::KeyRelease657,22715
+proc ::colorDlg::ok {w} {::colorDlg::ok675,23492
+proc ::colorDlg::cancel {w} {::colorDlg::cancel684,23790
+proc ::colorDlg::colorDlg {args} {::colorDlg::colorDlg693,24093
+proc ::colorDlg::complement {color} {::colorDlg::complement886,32317
+proc ::colorDlg::dark_color {color} {::colorDlg::dark_color903,32879
+proc ::colorDlg::analogous_colors {color} {::colorDlg::analogous_colors914,33187
+proc ::colorDlg::contrast {color} {::colorDlg::contrast933,33867
+proc ::colorDlg::colorToHex {color} {::colorDlg::colorToHex947,34273
+proc ::colorDlg::compare_colors {color1 color2} {::colorDlg::compare_colors953,34475
+    proc ::tk_chooseColor {args} {::tk_chooseColor972,35084
+    proc run {} {run976,35163
+
+color_array.tcl,48
+proc convert_color {args} {convert_color4,116
+
+command.tcl,389
+proc vTcl:set_command {target {option -command} {variable vTcl(w,opt,-command)}} {vTcl:set_command25,1009
+proc vTcl:get_command {title initial base} {vTcl:get_command60,2311
+proc vTcl:command:save_geom {base} {vTcl:command:save_geom124,4412
+proc vTcl:command:edit_save {base} {vTcl:command:edit_save129,4518
+proc vTcl:command:edit_cancel {base} {vTcl:command:edit_cancel144,4978
+
+compound.tcl,2504
+proc vTcl:save_compounds {} {vTcl:save_compounds35,1390
+proc vTcl:load_compounds {{file ""}} {vTcl:load_compounds52,1889
+proc vTcl:name_replace {name s} {vTcl:name_replace72,2341
+proc vTcl:name_replace_list {name list} {vTcl:name_replace_list80,2520
+proc vTcl:put_compound {text compound} {vTcl:put_compound92,2800
+proc vTcl:auto_place_compound {compound gmgr gopt} {vTcl:auto_place_compound112,3333
+proc vTcl:place_compound {compound gmgr rx ry x y} {vTcl:place_compound134,3893
+proc vTcl:insert_compound {name compound {gmgr pack} {gopt ""}} {vTcl:insert_compound149,4206
+proc vTcl:options_only {opts} {vTcl:options_only169,4825
+proc vTcl:extract_compound {base name compound {level 0} {gmgr ""} {gopt ""}} {vTcl:extract_compound183,5038
+                proc $nme $arg $bdy$nme214,6326
+proc vTcl:normalize_bindtags {target bindtags} {vTcl:normalize_bindtags377,12181
+proc vTcl:unnormalize_bindtags {target bindtags} {vTcl:unnormalize_bindtags399,12735
+proc vTcl:append_alias {name alias} {vTcl:append_alias413,13029
+proc vTcl:sort_cmd {el1 el2} {vTcl:sort_cmd418,13134
+proc vTcl:replace {target replace source} {vTcl:replace424,13290
+proc vTcl:name_compound {t {name ""}} {vTcl:name_compound434,13639
+    proc existsCompound {type compoundName} {existsCompound504,16085
+    proc defineCompoundImages {target} {defineCompoundImages512,16293
+    proc defineCompoundFonts {target} {defineCompoundFonts537,17191
+    proc createCompound {target type compoundName \createCompound560,17918
+    proc mergeCompoundCode {type compoundName {mergeCode 0}} {mergeCompoundCode733,25314
+    proc enumerateCompounds {type} {enumerateCompounds756,26125
+    proc putCompound {type compoundName} {putCompound771,26541
+    proc autoPlaceCompound {type compoundName gmgr gopt} {autoPlaceCompound810,27967
+proc insertCompound {target type compoundName {gmgr pack} {gopt ""}} {insertCompound832,28906
+    proc insertCompoundDirect {target type compoundName {gmgr pack} {gopt ""}} {insertCompoundDirect869,30532
+    proc placeCompound {type compoundName gmgr rx ry x y} {placeCompound889,31280
+    proc getClass {type compoundName} {getClass903,31635
+    proc getLibraries {type compoundName} {getLibraries908,31768
+    proc getImages {type compoundName} {getImages919,32079
+    proc getFonts {type compoundName} {getFonts933,32487
+    proc getProcs {type compoundName} {getProcs947,32903
+    proc deleteCompound {type compoundName} {deleteCompound952,33036
+
+do.tcl,236
+proc vTcl:passive_push_action {do undo} {vTcl:passive_push_action25,1020
+proc vTcl:push_action {do undo} {vTcl:push_action35,1333
+proc vTcl:pop_action {} {vTcl:pop_action41,1444
+proc vTcl:redo_action {} {vTcl:redo_action56,1877
+
+dragsize.tcl,1448
+proc vTcl:store_cursor {target} {vTcl:store_cursor25,1061
+proc vTcl:restore_cursor {target} {vTcl:restore_cursor36,1324
+proc vTcl:bind_button_1 {target X Y x y} {vTcl:bind_button_148,1653
+proc vTcl:bind_button_2 {target X Y x y} {vTcl:bind_button_278,2512
+proc  vTcl:bind_motion_ctrl {W x y} {vTcl:bind_motion_ctrl105,3344
+proc vTcl:bind_motion {W x y {ctrl 0}} {vTcl:bind_motion118,3786
+proc vTcl:bind_button_top {target X Y x y} {vTcl:bind_button_top140,4509
+proc vTcl:bind_button_container {target X Y x y} {vTcl:bind_button_container170,5478
+proc vTcl:bind_release {W X Y x y} {vTcl:bind_release188,6210
+proc vTcl:grab {widget absX absY} {vTcl:grab207,6703
+proc vTcl:moving_pane {parent widget x y} {vTcl:moving_pane216,6938
+proc vTcl:grab_motion {parent widget absX absY} {vTcl:grab_motion246,8122
+proc vTcl:grab_release {widget} {vTcl:grab_release280,9439
+proc vTcl:grab_resize_ctrl {absX absY handle} {vTcl:grab_resize_ctrl290,9715
+proc vTcl:resize_tseparator {widget absX absY handle} {vTcl:resize_tseparator523,18971
+proc vTcl:grab_resize {absX absY handle {ctrl 0}} {vTcl:grab_resize590,21286
+proc vTcl:adjust_widget_size {widget w h {handle {}}} {vTcl:adjust_widget_size743,26434
+proc vTcl:can_resize {dir} {vTcl:can_resize829,29204
+proc vTcl:lock_widget {} {vTcl:lock_widget873,30349
+proc vTcl:unlock_widget {} {vTcl:unlock_widget887,30760
+proc vTcl:copy_lock {target} {vTcl:copy_lock897,31032
+
+dump.tcl,2832
+proc vTcl:dump_namespace {context} {vTcl:dump_namespace34,1336
+proc vTcl:dump_proc {i {type ""}} {vTcl:dump_proc73,2258
+proc vTcl:save_procs {} {vTcl:save_procs102,3061
+proc vTcl:export_procs {} {vTcl:export_procs114,3327
+proc vTcl:dump:get_multifile_project_dir {project_name} {vTcl:dump:get_multifile_project_dir148,4326
+proc vTcl:dump:get_top_filename {target basedir project_name} {vTcl:dump:get_top_filename153,4430
+proc vTcl:dump:get_files_list {basedir project_name} {vTcl:dump:get_files_list160,4643
+proc vTcl:dump_data_tofile {target_file target_data} {vTcl:dump_data_tofile177,5006
+proc vTcl:dump_top_tofile {target basedir project_name} {vTcl:dump_top_tofile227,7322
+proc vTcl:save_tree {target {basedir ""} {project_name ""}} {vTcl:save_tree260,8664
+proc vTcl:gen_dummy_procs {} {vTcl:gen_dummy_procs311,10186
+proc vTcl:valid_class {class} {vTcl:valid_class321,10423
+proc vTcl:get_class {target {lower 0}} {vTcl:get_class330,10575
+proc vTcl:get_mgropts {opts {basename {}}} {vTcl:get_mgropts355,11358
+proc vTcl:get_opts {opts} {vTcl:get_opts399,12423
+proc vTcl:get_subopts_special {opts w} {vTcl:get_subopts_special412,12822
+proc vTcl:get_subopts_special_save {opts w} {vTcl:get_subopts_special_save434,13527
+proc vTcl:get_opts_special {opts w {save_always ""}} {vTcl:get_opts_special459,14304
+proc vTcl:get_opts_to_save {opts} {vTcl:get_opts_to_save521,16250
+proc vTcl:get_class_opts {target} {vTcl:get_class_opts572,18055
+proc vTcl:dump_widget_quick {target} {vTcl:dump_widget_quick588,18596
+proc vTcl:dump_widget_opt {target basename} {vTcl:dump_widget_opt596,18824
+proc vTcl:dump_widget_alias {target basename} {vTcl:dump_widget_alias865,31393
+proc vTcl:dump_widget_geom {target basename} {vTcl:dump_widget_geom885,31989
+proc vTcl:dump_grid_geom {target basename} {vTcl:dump_grid_geom937,34080
+proc vTcl:dump:class_bindings {} {vTcl:dump:class_bindings958,34711
+proc vTcl:dump:dump_user_bind {} {vTcl:dump:dump_user_bind963,34813
+proc vTcl:dump_widget_bind {target basename {include_bindtags 0}} {vTcl:dump_widget_bind995,35692
+proc vTcl:dump_top {target} {vTcl:dump_top1043,37395
+proc vTcl:dump_popup_menu {} {vTcl:dump_popup_menu1050,37627
+proc vTcl:dump:widgets {target} {vTcl:dump:widgets1067,38131
+proc vTcl:dump:save_tops {i} {vTcl:dump:save_tops1126,40380
+proc vTcl:dump:gather_widget_info {} {vTcl:dump:gather_widget_info1150,40924
+proc vTcl:dump:widget_info {target basename} {vTcl:dump:widget_info1192,42628
+proc vTcl:dump:project_info {basedir project} {vTcl:dump:project_info1231,43798
+proc vTcl:dump:sourcing_header {varName} {vTcl:dump:sourcing_header1316,46594
+proc vTcl:dump:not_sourcing_header {varName} {vTcl:dump:not_sourcing_header1321,46725
+proc vTcl:dump:sourcing_footer {varName} {vTcl:dump:sourcing_footer1326,46861
+
+edit.tcl,856
+proc vTcl:entry_or_text {w} {vTcl:entry_or_text24,1023
+proc vTcl:copy {{w ""}} {vTcl:copy31,1241
+proc vTcl:cut {{w ""}} {vTcl:cut46,1891
+proc vTcl:delete {recipient {w ""}} {vTcl:delete58,2128
+proc vTcl:paste {{fromMouse ""} {w ""}} {vTcl:paste177,6395
+proc ::vTcl::findReplace::window {{newBase ""}} {::vTcl::findReplace::window241,8431
+proc ::vTcl::findReplace::show {textWidget changeCmdParam} {::vTcl::findReplace::show401,15541
+proc ::vTcl::findReplace::find {{replace 0}} {::vTcl::findReplace::find416,15938
+proc ::vTcl::findReplace::notifyChange {} {::vTcl::findReplace::notifyChange476,17427
+proc ::vTcl::findReplace::replace {} {::vTcl::findReplace::replace485,17609
+proc ::vTcl::findReplace::replaceAll {} {::vTcl::findReplace::replaceAll537,19009
+proc ::vTcl::findReplace::cancel {} {::vTcl::findReplace::cancel568,19760
+
+file.tcl,1668
+proc vTcl:new {} {vTcl:new44,1707
+proc vTcl:file_source {} {vTcl:file_source73,2466
+proc vTcl:is_vtcl_prj {file} {vTcl:is_vtcl_prj83,2698
+proc vTcl:source {file newprocs} {vTcl:source137,4232
+proc vTcl:open {{file ""} {title "Open Project"}} {vTcl:open193,5897
+    proc vTcl:project:info {} {}vTcl:project:info232,7171
+proc vTcl:close {} {vTcl:close323,10352
+    proc exit {args} {}exit380,12211
+    proc init {argc argv} {}init381,12235
+    proc main {argc argv} {}main382,12264
+proc vTcl:get_project_name {} {vTcl:get_project_name412,13071
+proc vTcl:save {} {vTcl:save420,13295
+proc vTcl:save_as {} {vTcl:save_as438,13772
+proc vTcl:borrow {} {vTcl:borrow453,14218
+proc vTcl:save2 {file} {vTcl:save2459,14321
+proc vTcl:quit {} {vTcl:quit641,21346
+proc vTcl:save_prefs {} {vTcl:save_prefs665,21973
+proc vTcl:find_files {base pattern} {vTcl:find_files754,25144
+proc vTcl:get_file {mode {title File} {ext .tcl}} {vTcl:get_file770,25538
+proc vTcl:restore {} {vTcl:restore911,31049
+    proc isMultipleFileProject {} {isMultipleFileProject960,32892
+    proc initModule {moduleName} {initModule964,32997
+    proc addCompound {moduleName type compoundName} {addCompound978,33532
+    proc saveCompounds {moduleName} {saveCompounds985,33788
+    proc getCompounds {moduleName} {getCompounds1002,34418
+    proc closeCompounds {moduleName} {closeCompounds1006,34529
+    proc closeCompound {compound} {closeCompound1015,34751
+    proc requiredLibraries {moduleName} {requiredLibraries1022,35011
+    proc getLibrariesToLoad {} {getLibrariesToLoad1036,35480
+    proc setLibrariesToLoad {libs} {setLibrariesToLoad1055,36251
+
+font.tcl,2682
+proc vTcl:font:prompt_user_font.no {target option} {vTcl:font:prompt_user_font.no26,1034
+proc vTcl:font:prompt_user_font {target option} {vTcl:font:prompt_user_font47,1608
+proc vTcl:font:prompt_user_font_2 {font_desc} {vTcl:font:prompt_user_font_279,2780
+proc vTcl:font:init_stock {} {vTcl:font:init_stock101,3390
+proc is_default_font {font} {is_default_font143,5393
+proc vTcl:font:get_type {object} {vTcl:font:get_type154,5699
+proc vTcl:font:get_key {object} {vTcl:font:get_key158,5780
+proc vTcl:font:get_descr {object} {vTcl:font:get_descr162,5859
+proc vTcl:font:get_font {key} {vTcl:font:get_font166,5947
+proc vTcl:font:getFontFromDescr {font_descr} {vTcl:font:getFontFromDescr178,6384
+proc {vTcl:font:add_font} {font_descr font_type {newkey {}} {check_fonts {1}}} {{vTcl:font:add_font}203,7390
+proc vTcl:font:add_GUI_font {font_name font_descr} {vTcl:font:add_GUI_font261,9711
+proc vTcl:font:delete_font {key} {vTcl:font:delete_font286,10512
+proc vTcl:font:ask_delete_font {base} {vTcl:font:ask_delete_font304,11033
+proc vTcl:font:remove_user_fonts {} {vTcl:font:remove_user_fonts327,11615
+proc {vTcl:font:create_link} {t tag link_cmd} {{vTcl:font:create_link}339,11876
+proc vTcl:font:display_fonts {base} {vTcl:font:display_fonts350,12228
+proc {vTcl:font:display_fonts_in_text} {t} {{vTcl:font:display_fonts_in_text}360,12397
+proc {vTcl:font:font_change} {base} {{vTcl:font:font_change}390,13254
+proc vTcl:font:get_selected_font {imageListbox} {vTcl:font:get_selected_font409,13757
+proc vTcl:font:enableButtons {base} {vTcl:font:enableButtons418,13972
+proc vTclWindow.vTcl.fontManager {args} {vTclWindow.vTcl.fontManager433,14368
+proc vTcl:font:prompt_font_manager {} {vTcl:font:prompt_font_manager526,17367
+proc vTcl:font:dump_create_font {font} {vTcl:font:dump_create_font530,17448
+proc vTcl:font:generate_default_fonts {fileID} {vTcl:font:generate_default_fonts536,17642
+proc vTcl:font:generate_font_stock {fileID} {vTcl:font:generate_font_stock564,18803
+proc vTcl:font:generate_font_user {fileID} {vTcl:font:generate_font_user593,19853
+proc vTcl:font:create_noborder_fontlist {base} {vTcl:font:create_noborder_fontlist610,20620
+proc vTcl:font:listboxSelect {l} {vTcl:font:listboxSelect657,21935
+proc {vTcl:font:fill_noborder_font_list} {t} {{vTcl:font:fill_noborder_font_list}671,22372
+proc vTcl:font:prompt_noborder_fontlist {font} {vTcl:font:prompt_noborder_fontlist707,23310
+proc vTcl:font:refresh_manager {{position 0.0}} {vTcl:font:refresh_manager733,24240
+proc vTcl:font:get_manager_position {} {vTcl:font:get_manager_position744,24559
+proc vTcl:font:translate {value} {vTcl:font:translate752,24769
+
+globals.tcl,144
+proc vTcl:syntax:iskeyword {candidate} {vTcl:syntax:iskeyword651,25947
+proc vTcl:syntax:iscommand {command} {vTcl:syntax:iscommand663,26175
+
+gui_python_gen.tcl,7422
+proc lambda {{p1 ""} {p2 ""} {p3 ""} {p4 ""} {p5 ""} {p6 ""} {p7 ""} {p8 ""}} {lambda67,2292
+proc vTcl:generate_python_UI {} {vTcl:generate_python_UI75,2712
+proc vTcl:python_generate_context_menu {root_list} {vTcl:python_generate_context_menu194,6798
+proc vTcl:generate_python {window} {vTcl:generate_python248,8933
+class $classname:$classname:501,16901
+proc vTcl:toplevel_geometry {window} {vTcl:toplevel_geometry558,18090
+proc vTcl:create_functions {{gen gui}} {vTcl:create_functions627,20280
+proc vTcl:create_validation_functions {} {vTcl:create_validation_functions788,25374
+proc vTcl:validation_parameters {} {vTcl:validation_parameters816,26117
+proc split_long_font_string {str} {split_long_font_string821,26174
+proc color_value {color} {color_value845,26839
+proc color_comment {color} {color_comment853,27004
+proc check_default_font {font} {check_default_font866,27361
+proc vTcl:get_top_level_colors_fonts {} {vTcl:get_top_level_colors_fonts878,27662
+proc vTcl:fonts_actually_used {{selfie ""}} {vTcl:fonts_actually_used903,28513
+proc vTcl:get_top_level_configuration {window} {vTcl:get_top_level_configuration936,29712
+proc prepare_parameter_list {arg_list type} {prepare_parameter_list1023,33057
+proc create_pnotebook_helper {} {create_pnotebook_helper1050,33975
+proc create_ttk_helper {} {create_ttk_helper1090,35317
+class AutoScroll(object):AutoScroll(object):1095,35464
+class ScrolledText(AutoScroll, Text):ScrolledText(AutoScroll,1165,38544
+class ScrolledListBox(AutoScroll, Listbox):ScrolledListBox(AutoScroll,1177,38979
+class ScrolledEntry(AutoScroll, Entry):ScrolledEntry(AutoScroll,1189,39422
+class ScrolledCombo(AutoScroll, ttk.Combobox):ScrolledCombo(AutoScroll,1201,39872
+class ScrolledTreeView(AutoScroll, ttk.Treeview):ScrolledTreeView(AutoScroll,1213,40322
+proc vTcl:py_build_set_Tk_var {var_list {new yes}} {vTcl:py_build_set_Tk_var1225,40713
+proc vTcl:colorize_python {prefix} {vTcl:colorize_python1262,41580
+proc vTcl:save_python_code {prefix} {vTcl:save_python_code1267,41689
+proc vTcl:save_GUI_file {} {vTcl:save_GUI_file1291,42551
+proc vTcl:py_source_frame {window prefix parentframe} {vTcl:py_source_frame1309,43157
+proc vTcl:py_get_command_parameters {cmdpar} {vTcl:py_get_command_parameters1330,43832
+proc vTcl:python_parse_menu {menubutton widname {suffix m}} {vTcl:python_parse_menu1351,44304
+proc vTcl:python_parse_combo_menu {menubutton widname} {vTcl:python_parse_combo_menu1450,49498
+proc vTcl:python_quick_run {base prefix} {vTcl:python_quick_run1482,50707
+proc vTcl:run_prep {prefix {save "save"}} {vTcl:run_prep1498,51096
+proc vTcl:python_run {base prefix} {vTcl:python_run1569,53829
+proc vTcl:python_run_unix {base prefix} {vTcl:python_run_unix1601,54791
+proc vTcl:python_run_both {pcommand} {vTcl:python_run_both1629,55860
+proc vTcl:read_fifo {prefix} {vTcl:read_fifo1654,56855
+proc vTcl:check_upon_close_button {base prefix} {vTcl:check_upon_close_button1672,57422
+proc vTcl:search_console {prefix} {vTcl:search_console1696,58122
+proc vTcl:Window.vTcl.py_console {type} {vTcl:Window.vTcl.py_console1717,58943
+proc  vTcl:build_treeview_support {target widname cmdname widclass} {vTcl:build_treeview_support2043,71041
+proc vTcl:gen_file_desc {block} {vTcl:gen_file_desc2074,72157
+proc vTcl:transform_font_variable {v} {vTcl:transform_font_variable2095,72928
+proc vTcl:prepend_import_name {cmd_exp {widname ""}} {vTcl:prepend_import_name2119,73592
+proc vTcl:python_configure_widget {widget widname cmdname \vTcl:python_configure_widget2153,74807
+            class {}{}2466,88194
+proc vTcl:python_add_special_opt_to_optlist {option target} {vTcl:python_add_special_opt_to_optlist2556,91652
+proc vTcl:python_source_subwidgets {subwidget parentframe} {vTcl:python_source_subwidgets2575,92397
+proc vTcl:split_line {str} {vTcl:split_line2599,93384
+proc vTcl:labelframe_correction { {parent {}} {no_h {no_h}} {abs {}}} {vTcl:labelframe_correction2663,95154
+proc vTcl:relative_placement {{parent {}}} {vTcl:relative_placement2714,97119
+proc vTcl:entry_placement {{parent {}}} {vTcl:entry_placement2738,98000
+proc vTcl:scale_placement {widget parent} {vTcl:scale_placement2761,98878
+proc vTcl:separator_placement {widget parent} {vTcl:separator_placement2789,99965
+proc vTcl:progressbar_placement {{parent {}}} {vTcl:progressbar_placement2835,101784
+proc vTcl:fixed_placement {} {vTcl:fixed_placement2856,102616
+proc vTcl:relative_x_y {{parent {}}} {vTcl:relative_x_y2865,102870
+proc vTcl:comp_color {} {vTcl:comp_color2889,103949
+proc vTcl:analog_colors {} {vTcl:analog_colors2899,104236
+proc vTcl:style_code {widclass} {vTcl:style_code2912,104672
+proc vTcl:python_source_widget {target prefix parentframe} {vTcl:python_source_widget2976,107237
+proc vTcl:python_menu_font {font} {vTcl:python_menu_font3887,150040
+proc vTcl:python_menu_options { opts {index {}} {menu_name {}} {image_name {}}} {vTcl:python_menu_options3949,152041
+proc vTcl:python_unique_menu_name {name} {vTcl:python_unique_menu_name4059,156303
+proc vTcl:python_create_image {target index} {vTcl:python_create_image4073,156759
+proc vTcl:python_replace_blanks {str} {vTcl:python_replace_blanks4096,157805
+proc vTcl:python_process_menu {target widname {readable_name {}}} {vTcl:python_process_menu4105,158102
+proc vTcl:python_get_inner_frame {target} {vTcl:python_get_inner_frame4219,162986
+proc vTcl:find_attribute {widget attribute} {vTcl:find_attribute4238,163456
+proc vTcl:python_process_me {command widget widname} {vTcl:python_process_me4248,163673
+proc vTcl:python_load_cmd  {widget widname} {vTcl:python_load_cmd4266,164177
+proc vTcl:python_delete_leading_tabs {proc} {vTcl:python_delete_leading_tabs4274,164439
+proc vTcl:python_delete_lambda {proc} {vTcl:python_delete_lambda4295,164908
+proc vTcl:python_indent_lines {proc} {vTcl:python_indent_lines4302,165045
+proc vTcl:python_subst_tabs {proc} {vTcl:python_subst_tabs4322,165494
+proc vTcl:python_print_proc {proc} {vTcl:python_print_proc4340,165898
+proc vTcl:python_gui_startup {geom title classname} {vTcl:python_gui_startup4346,165999
+proc  vTcl:get_subwidget_options {widget hlist} {vTcl:get_subwidget_options4432,167908
+proc vTcl:python_nb_tab_configure {target tab} {vTcl:python_nb_tab_configure4462,169021
+proc vTcl:python_nb_page_configure {p widget widname name} {vTcl:python_nb_page_configure4502,170312
+proc vTcl:create_balloon_code {window} {vTcl:create_balloon_code4522,170985
+proc vTcl:widget_2_widname {target} {vTcl:widget_2_widname4543,171730
+proc vTcl:python_set_alias {target name} {vTcl:python_set_alias4587,173246
+proc vTcl:python_alias {alias target} {vTcl:python_alias4600,173689
+proc vTcl:python_dump_bind {target widname} {vTcl:python_dump_bind4615,174063
+proc x_compare {a b} {x_compare4710,177933
+proc vTcl:python_process_menubutton {menubutton widname} {vTcl:python_process_menubutton4720,178133
+proc vTcl:sort_menubuttons {} {vTcl:sort_menubuttons4724,178196
+proc vTcl:python_idle_checks {filename}  {vTcl:python_idle_checks4736,178468
+proc vTcl:load_python_idle {} {vTcl:load_python_idle4764,179697
+proc vTcl:load_console {prefix file} {vTcl:load_console4845,182503
+proc vTcl:load_python_consoles {} {vTcl:load_python_consoles4882,183759
+proc vTcl:clean_string {str} {vTcl:clean_string4909,184605
+proc printenv { args } {printenv4923,185002
+
+handle.tcl,186
+proc vTcl:destroy_handles {} {vTcl:destroy_handles24,1025
+proc vTcl:create_handles {target} {vTcl:create_handles37,1420
+proc vTcl:place_handles {target} {vTcl:place_handles85,3076
+
+help.tcl,744
+proc vTclWindow.vTcl.help {args} {vTclWindow.vTcl.help25,1002
+proc vTcl:Help {helpName} {vTcl:Help72,2457
+proc vTcl:BindHelp {w help} {vTcl:BindHelp104,3151
+proc vTclWindow.vTcl.tip {base} {vTclWindow.vTcl.tip108,3227
+    proc {::tip::get_next_tip} {} {{::tip::get_next_tip}236,7391
+    proc {::tip::get_previous_tip} {} {{::tip::get_previous_tip}253,7828
+    proc ::vTcl::news::Init {} {::vTcl::news::Init267,8159
+    proc ::vTcl::news::get_news {} {::vTcl::news::get_news276,8375
+    proc ::vTcl::news::display_news {token} {::vTcl::news::display_news298,8925
+    proc ::vTcl::news::parse_news {base string} {::vTcl::news::parse_news357,10597
+proc vTclWindow.vTcl.infolibs {{base ""}} {vTclWindow.vTcl.infolibs391,11652
+
+images.tcl,2882
+proc vTcl:image:get_creation_type {filename} {vTcl:image:get_creation_type39,1457
+proc {vTcl:image:create_new_image} {filename{vTcl:image:create_new_image}56,1997
+proc vTcl:get_new_name {filename} {vTcl:get_new_name128,4631
+proc vTcl:image:get_reference {image} {vTcl:image:get_reference135,4772
+proc {vTcl:image:get_description} {filename} {{vTcl:image:get_description}139,4862
+proc {vTcl:image:get_type} {filename} {{vTcl:image:get_type}144,5009
+proc {vTcl:image:get_image} {filename} {{vTcl:image:get_image}149,5142
+proc {vTcl:image:init_img_manager} {} {{vTcl:image:init_img_manager}180,6314
+proc {vTcl:image:init_stock} {} {{vTcl:image:init_stock}227,7426
+proc {vTcl:image:new_image_file} {} {{vTcl:image:new_image_file}271,8313
+proc vTcl:image:replace_image {imageListbox} {vTcl:image:replace_image310,9647
+proc vTcl:image:fill_noborder_image_list {t} {vTcl:image:fill_noborder_image_list357,11140
+proc vTcl:image:listboxSelect {l} {vTcl:image:listboxSelect376,11615
+proc vTcl:image:create_selector_dlg {base} {vTcl:image:create_selector_dlg390,12046
+proc vTcl:prompt_user_image.no {target option} {vTcl:prompt_user_image.no440,13375
+proc vTcl:prompt_user_image2.no {image} {vTcl:prompt_user_image2.no460,13850
+proc vTcl:prompt_user_image {target option} {vTcl:prompt_user_image493,14575
+proc vTcl:prompt_user_image2 {image} {vTcl:prompt_user_image2514,15219
+proc vTcl:image:dump_create_image {image} {vTcl:image:dump_create_image545,15951
+proc vTcl:image:dump_create_image_header {} {vTcl:image:dump_create_image_header569,16533
+proc vTcl:image:dump_create_image_footer {} {vTcl:image:dump_create_image_footer576,16637
+proc vTcl:image:generate_image_stock {fileID} {vTcl:image:generate_image_stock598,17399
+proc vTcl:image:generate_image_user {fileID} {vTcl:image:generate_image_user630,18420
+proc vTcl:image:delete_image {image} {vTcl:image:delete_image649,19049
+proc vTcl:image:get_selected_image {imageListbox} {vTcl:image:get_selected_image666,19532
+proc vTcl:image:ask_delete_image {imageListbox} {vTcl:image:ask_delete_image677,19878
+proc vTcl:image:remove_user_images {} {vTcl:image:remove_user_images695,20347
+proc vTcl:image:reload_images {} {vTcl:image:reload_images707,20592
+proc vTcl:image:enableButtons {base} {vTcl:image:enableButtons716,20790
+proc vTclWindow.vTcl.imgManager {args} {vTclWindow.vTcl.imgManager732,21249
+proc vTcl:image:prompt_image_manager {} {vTcl:image:prompt_image_manager819,24441
+proc vTcl:image:get_files_list {} {vTcl:image:get_files_list824,24525
+proc vTcl:image:translate {value} {vTcl:image:translate843,24965
+proc vTcl:image:refresh_manager {{position 0.0}} {vTcl:image:refresh_manager855,25281
+proc vTcl:image:get_manager_position {} {vTcl:image:get_manager_position866,25607
+proc vTcl:image:external_editor {imageListbox} {vTcl:image:external_editor870,25731
+
+input.tcl,956
+proc vTcl:get_string {title target {value ""}} {vTcl:get_string25,1033
+proc vTcl:set_string {base str} {vTcl:set_string34,1284
+proc vTcl:snarf_string {base} {vTcl:snarf_string43,1457
+proc vTcl:string_window {title base {value ""}} {vTcl:string_window48,1559
+proc vTcl:set_label {t} {vTcl:set_label188,7291
+proc vTcl:set_text {target} {vTcl:set_text203,7634
+proc vTcl:set_values {target} {vTcl:set_values217,8030
+proc vTcl:get_text {base text} {vTcl:get_text238,8775
+proc vTcl:text_window {base title target} {vTcl:text_window249,9097
+proc vTcl:get_values {base text} {vTcl:get_values295,10616
+proc vTcl:values_window {base title target} {vTcl:values_window308,10997
+proc vTcl:load_text_box {box target option} {vTcl:load_text_box356,12598
+proc getLine {title description legend args} {getLine369,12972
+proc updateSelection {top} {updateSelection453,15839
+proc select {contents title {selectMode single} args} {select470,16261
+
+lib_bwidget.tcl,446
+proc vTcl:lib_bwidget:init {} {vTcl:lib_bwidget:init26,987
+proc vTcl:widget:lib:lib_bwidget {args} {vTcl:widget:lib:lib_bwidget39,1384
+    proc update_pages {target var} {update_pages99,2807
+    proc config_pages {target var} {config_pages115,3385
+    proc get_pages {target} {get_pages118,3432
+    proc select_page {target index} {select_page121,3472
+    proc dump_subwidgets {subwidget {sitebasename {}}} {dump_subwidgets130,3950
+
+lib_core.tcl,2977
+proc vTcl:lib_core:init {} {vTcl:lib_core:init28,983
+proc vTcl:widget:lib:lib_core {args} {vTcl:widget:lib:lib_core35,1101
+proc vTcl:get_balloon {target} {vTcl:get_balloon94,2417
+proc vTcl:update_balloon {target var} {vTcl:update_balloon106,2735
+proc vTcl:config_balloon {target value} {vTcl:config_balloon110,2820
+proc vTcl:grid:conf_ext {target var value} {vTcl:grid:conf_ext135,3647
+proc vTcl:pack:conf_ext {target var value} {vTcl:pack:conf_ext147,4242
+proc vTcl:wm:enable_geom {} {vTcl:wm:enable_geom154,4455
+proc vTcl:wm:relative_geometry {target var value} {vTcl:wm:relative_geometry173,5182
+proc vTcl:place:conf_geom {target var value} {vTcl:place:conf_geom182,5435
+proc vTcl:wm:conf_geom {target var value} {vTcl:wm:conf_geom195,5961
+proc vTcl:wm:conf_resize {target var value} {vTcl:wm:conf_resize211,6545
+proc vTcl:wm:conf_minmax {target var value} {vTcl:wm:conf_minmax219,6731
+proc vTcl:wm:conf_state {target var value} {vTcl:wm:conf_state230,7036
+proc vTcl:wm:conf_title {target var value} {vTcl:wm:conf_title235,7149
+proc vTcl:wm:dump_info {target basename} {vTcl:wm:dump_info241,7276
+proc vTcl:edit_target_menu {target} {vTcl:edit_target_menu262,7944
+proc vTcl:edit_menu {menu} {vTcl:edit_menu305,9491
+proc vTcl:core:menutranslate {value} {vTcl:core:menutranslate318,9799
+proc vTcl:core:variabletranslate {value} {vTcl:core:variabletranslate360,11057
+proc vTcl:core:scrolltranslate {value} {vTcl:core:scrolltranslate380,11548
+proc vTcl:core:commandtranslate {value} {vTcl:core:commandtranslate393,11785
+proc vTcl:core:noencasewhen {value} {vTcl:core:noencasewhen410,12217
+proc vTcl:core:noencasecommandwhen {value} {vTcl:core:noencasecommandwhen422,12470
+proc vTcl:core:set_option {target option description} {vTcl:core:set_option436,12942
+    proc dump_subwidgets {subwidget {sitebasename {}}} {dump_subwidgets465,14147
+proc vTclWindow.vTcl.itemEdit {base} {vTclWindow.vTcl.itemEdit497,15183
+proc vTcl:fudge_compound_attribute {suffix} {vTcl:fudge_compound_attribute684,22591
+    proc edit {target cmds} {edit700,22881
+    proc initBoxes {top} {initBoxes713,23309
+    proc setGetBox {top option {var {}}} {setGetBox762,24935
+    proc keyRelease {top option var boxvar} {keyRelease778,25411
+    proc init {top w cmdsEdit} {init792,25827
+    proc allOptions {top} {allOptions818,26827
+    proc initProperties {top} {initProperties839,27502
+    proc setLabel {top option variable args} {setLabel891,29507
+    proc selectItem {top index} {selectItem906,30024
+    proc widgetDeleted {top w} {widgetDeleted947,31594
+    proc close {top} {close954,31726
+    proc addItem {top} {addItem990,32901
+    proc childsiteDeleted {top w index} {childsiteDeleted1014,33679
+    proc removeItem {top} {removeItem1031,34169
+    proc moveUpOrDown {top direction} {moveUpOrDown1053,34926
+    proc enableMenus {top} {enableMenus1070,35537
+    proc listboxSelect {args} {listboxSelect1083,36036
+
+lib_scrolled.tcl,447
+proc vTcl:lib_scrolled:init {} {vTcl:lib_scrolled:init27,1229
+proc vTcl:widget:lib:lib_scrolled {args} {vTcl:widget:lib:lib_scrolled31,1282
+    proc update_pages {target var} {update_pages52,1865
+    proc config_pages {target var} {config_pages70,2522
+    proc get_pages {target} {get_pages73,2569
+    proc select_page {target index} {select_page76,2609
+    proc dump_subwidgets {subwidget {sitebasename {}}} {dump_subwidgets86,3119
+
+lib_ttk.tcl,427
+proc vTcl:lib_ttk:init {} {vTcl:lib_ttk:init27,1224
+proc vTcl:widget:lib:lib_ttk {args} {vTcl:widget:lib:lib_ttk31,1272
+    proc update_pages {target var} {update_pages62,1992
+    proc config_pages {target var} {config_pages79,2647
+    proc get_pages {target} {get_pages82,2694
+    proc select_page {target index} {select_page85,2734
+    proc dump_subwidgets {subwidget {sitebasename {}}} {dump_subwidgets95,3244
+
+loadwidg.tcl,2831
+proc vTcl:LoadWidgets {dir} {vTcl:LoadWidgets29,1180
+proc vTcl:LoadWidget {lib file} {vTcl:LoadWidget43,1594
+proc SetClassArray {} {SetClassArray80,2728
+proc ensureImage {name} {ensureImage156,5648
+proc Name {args} { }Name170,5923
+proc Class {name} {Class172,5945
+proc Lib {lib} {Lib177,6008
+proc CreateCmd {cmd} {CreateCmd182,6065
+proc Icon {icon} {Icon187,6134
+proc AddOptions {args} {AddOptions192,6195
+proc Balloon {args} {Balloon197,6277
+proc Option {args} {Option202,6344
+proc DefaultOptions {args} {DefaultOptions207,6419
+proc DefaultValues {args} {DefaultValues212,6509
+proc DontSaveOptions {args} {DontSaveOptions217,6597
+proc DumpCmd {val} {DumpCmd222,6689
+proc CompoundCmd {val} {CompoundCmd227,6754
+proc TagsCmd {val} {TagsCmd232,6827
+proc DumpChildren {val} {DumpChildren237,6892
+proc MegaWidget {val} {MegaWidget244,7035
+proc InsertCmd {name} {InsertCmd251,7174
+proc SelectCmd {name} {SelectCmd256,7245
+proc DeleteCmd {name} {DeleteCmd261,7316
+proc DeleteSiteCmd {name} {DeleteSiteCmd266,7387
+proc SelectSiteCmd {name} {SelectSiteCmd271,7466
+proc DoubleClickCmd {name} {DoubleClickCmd276,7545
+proc TreeLabel {args} {TreeLabel281,7623
+proc Export {name {c ""}} {Export286,7694
+proc NewOption {args} {NewOption295,7868
+proc ClassOption {args} {ClassOption305,8158
+proc OptionConfigCmd {opt type args} {OptionConfigCmd315,8483
+proc Function {name command} {Function319,8563
+proc SuperClass {val} {SuperClass325,8687
+proc IsSuperClass {val} {IsSuperClass332,8821
+proc Resizable {val} {Resizable339,8964
+proc TypeCmd {val} {TypeCmd348,9275
+proc AutoPlace {val} {AutoPlace353,9340
+proc AliasPrefix {val} {AliasPrefix360,9477
+proc WidgetProc {val} {WidgetProc365,9550
+proc ResizeCmd {val} {ResizeCmd370,9621
+proc SpecialOpt {args} {SpecialOpt375,9690
+proc AdditionalClasses {args} {AdditionalClasses384,10010
+proc IgnoreTreeLeftClick {} {IgnoreTreeLeftClick396,10383
+proc IgnoreTreeRightClick {} {IgnoreTreeRightClick401,10460
+proc TreeChildrenCmd {val} {TreeChildrenCmd406,10539
+proc GetImagesCmd {cmd} {GetImagesCmd411,10620
+proc GetFontsCmd {cmd} {GetFontsCmd415,10700
+proc InsertChildCmd {cmd {c ""}} {InsertChildCmd419,10778
+proc IgnoreProc {args} {IgnoreProc427,10958
+proc TranslateOption {option proc} {TranslateOption431,11029
+proc NoEncaseOption {option value} {NoEncaseOption435,11116
+proc NoEncaseOptionWhen {option proc} {NoEncaseOptionWhen439,11203
+proc Insertable {{c ""}} {Insertable443,11296
+proc DumpInfoCmd {val} {DumpInfoCmd450,11415
+proc EditableTagsCmd {val} {EditableTagsCmd455,11488
+proc QueryInsertOptionsCmd {val} {QueryInsertOptionsCmd459,11574
+proc VirtualEvents {args} {VirtualEvents463,11672
+proc TtkOptions {args} {TtkOptions471,11891
+proc TtkWidget {val} {TtkWidget478,12063
+
+menu.tcl,317
+proc vTcl:menu:insert {menu name {root ""}} {vTcl:menu:insert168,6950
+proc vTcl:initRcFileMenu {} {vTcl:initRcFileMenu214,8613
+proc vTcl:addRcFile {file} {vTcl:addRcFile230,8914
+proc vTcl:updateRcFileMenu {} {vTcl:updateRcFileMenu242,9184
+proc vTcl:enable_entries {menu state} {vTcl:enable_entries278,10049
+
+menus.tcl,3493
+    proc {::menu_edit::delete_item} {top} {{::menu_edit::delete_item}58,2161
+    proc {::menu_edit::delete_menu_recurse} {menu} {{::menu_edit::delete_menu_recurse}93,3121
+    proc {::menu_edit::enable_editor} {top enable} {{::menu_edit::enable_editor}120,3820
+    proc {::menu_edit::enable_all_editors} {enable} {{::menu_edit::enable_all_editors}162,5430
+    proc {::menu_edit::set_uistate} {top} {{::menu_edit::set_uistate}173,5666
+    proc {::menu_edit::enable_toolbar_buttons} {top} {{::menu_edit::enable_toolbar_buttons}181,5917
+    proc {::menu_edit::fill_command} {top command} {{::menu_edit::fill_command}225,7277
+    proc {::menu_edit::fill_menu} {top m {level 0} {path {}}} {{::menu_edit::fill_menu}240,7848
+    proc {::menu_edit::fill_menu_list} {top m} {{::menu_edit::fill_menu_list}314,10701
+    proc {::menu_edit::get_menu_index} {top index ref_m ref_i} {{::menu_edit::get_menu_index}344,11721
+    proc {::menu_edit::move_item} {top direction} {{::menu_edit::move_item}354,12028
+    proc {::menu_edit::new_item} {top type} {{::menu_edit::new_item}413,13636
+    proc set_menu_item_defaults {menu {index {}}} {set_menu_item_defaults500,17634
+    proc findToplevel {menu} {findToplevel539,19327
+    proc {::menu_edit::post_context_new_menu} {top X Y} {{::menu_edit::post_context_new_menu}546,19548
+    proc {::menu_edit::post_new_menu} {top} {{::menu_edit::post_new_menu}553,19701
+    proc initBoxes {top m} {initBoxes564,20057
+    proc {::menu_edit::show_menu} {top index} {{::menu_edit::show_menu}591,20895
+    proc setGetBox {top option {var {}}} {setGetBox619,21809
+    proc keyRelease {top option var boxvar} {keyRelease636,22315
+    proc discoverOptions {} {discoverOptions652,22908
+    proc checkAttribute {m option checkVar} {checkAttribute680,23808
+    proc update_default_properties {menu index option value} {update_default_properties689,24071
+    proc fillProperties {top m i} {fillProperties702,24640
+    proc enableProperties {top enable} {enableProperties789,28304
+    proc enable_select_properties {top} {enable_select_properties797,28587
+    proc configCmd {top option variable} {configCmd806,28979
+    proc initProperties {top m} {initProperties827,29798
+    proc {::menu_edit::toggle_tearoff} {top} {{::menu_edit::toggle_tearoff}860,31195
+    proc {::menu_edit::update_current} {top} {{::menu_edit::update_current}885,31875
+    proc {::menu_edit::update_current_a} {top} {{::menu_edit::update_current_a}889,32000
+    proc {::menu_edit::close_all_editors} {} {{::menu_edit::close_all_editors}900,32443
+    proc {::menu_edit::browse_image} {top} {{::menu_edit::browse_image}913,32681
+    proc {::menu_edit::browse_font} {top} {{::menu_edit::browse_font}919,32869
+    proc {::menu_edit::click_listbox} {top} {{::menu_edit::click_listbox}928,33105
+    proc {::menu_edit::ask_delete_menu} {top} {{::menu_edit::ask_delete_menu}940,33524
+    proc {::menu_edit::includes_menu} {top m} {{::menu_edit::includes_menu}948,33772
+    proc {::menu_edit::open_existing_editor} {m} {{::menu_edit::open_existing_editor}975,34494
+    proc {::menu_edit::is_open_existing_editor} {m} {{::menu_edit::is_open_existing_editor}998,35121
+    proc {::menu_edit::refreshes_existing_editor} {top} {{::menu_edit::refreshes_existing_editor}1013,35485
+    proc {::menu_edit::find_root_menu} {m} {{::menu_edit::find_root_menu}1024,35832
+proc vTclWindow.vTclMenuEdit {base menu} {vTclWindow.vTclMenuEdit1041,36278
+
+misc.tcl,6751
+proc vTcl:toolbar_button {args} {vTcl:toolbar_button25,1024
+proc vTcl:toolbar_menubutton {args} {vTcl:toolbar_menubutton38,1396
+proc vTcl:toolbar_label {args} {vTcl:toolbar_label52,1815
+proc vTcl:special_button {path args} {vTcl:special_button65,2217
+proc vTcl:boolean_radio {path args} {vTcl:boolean_radio78,2682
+proc vTcl:boolean_radio_get {var old_var args} {vTcl:boolean_radio_get113,4017
+proc vTcl:portable_filename {filename} {vTcl:portable_filename139,4891
+proc vTcl:portable_filename_new {filename} {vTcl:portable_filename_new145,5055
+proc vTcl:at {varname} {vTcl:at159,5405
+proc vTcl:util:greatest_of {numlist} {vTcl:util:greatest_of164,5487
+proc vTcl:upper_first {string} {vTcl:upper_first174,5658
+proc vTcl:lower_first {string} {vTcl:lower_first178,5779
+proc vTcl:load_images {} {vTcl:load_images182,5900
+proc vTcl:list {cmd elements list} {vTcl:list201,6608
+proc vTcl:diff_list {oldlist newlist} {vTcl:diff_list223,7142
+proc vTcl:clean_pairs {list {indent 8} } {vTcl:clean_pairs236,7437
+proc vTcl:bounded_incr {var delta} {vTcl:bounded_incr313,9793
+proc vTcl:pos_neg {num} {vTcl:pos_neg323,9994
+proc vTcl:widget_delta {widget x y w h} {vTcl:widget_delta329,10101
+proc vTcl:set_timestamp { } {vTcl:set_timestamp357,11216
+proc vTcl:hex {num} {vTcl:hex366,11552
+proc vTcl:grid_snap {xy pos} {vTcl:grid_snap373,11722
+proc vTcl:status {{message "Status"}} {vTcl:status390,12285
+proc vTcl:right_click {widget X Y x y} {vTcl:right_click396,12401
+proc vTcl:statbar {value} {vTcl:statbar418,12946
+proc vTcl:show_bindings {} {vTcl:show_bindings431,13366
+proc vTcl:rename {name} {vTcl:rename446,13787
+proc vTcl:cmp_user_menu {} {vTcl:cmp_user_menu464,14371
+proc vTcl:cmp_sys_menu {} {vTcl:cmp_sys_menu481,14851
+proc vTcl:get_children {target {include_megachildren 0}} {vTcl:get_children494,15253
+proc vTcl:find_new_tops {newprocs} {vTcl:find_new_tops528,16080
+proc vTcl:find_widgets_with_balloon_msg {window} {# RozenvTcl:find_widgets_with_balloon_msg553,16778
+proc vTcl:error {mesg} {vTcl:error570,17312
+proc vTcl:dialog_wait {win varName {nopos 0}} {vTcl:dialog_wait581,17714
+proc vTcl:dialog_safeguard {win} {vTcl:dialog_safeguard607,18161
+proc vTcl:forAllMatches {w tags callback {from 1} {to -1}} {vTcl:forAllMatches617,18437
+proc max {a b} {max713,22310
+proc min {a b} {min720,22394
+proc vTcl:rectanglesOverlap {P1 P2 Q1 Q2 strict} {vTcl:rectanglesOverlap751,23472
+proc vTcl:forAllMatches.no {w tags callback {from 1} {to -1}} {vTcl:forAllMatches.no799,24697
+proc vTcl:syntax_item {w tag} {vTcl:syntax_item854,26160
+proc vTcl:syntax_color {w {from 1} {to -1}} {vTcl:syntax_color864,26425
+proc vTcl:prepare_pulldown {base xl yl} {vTcl:prepare_pulldown896,27261
+proc vTcl:display_pulldown {base xl yl {close_action ""}} {vTcl:display_pulldown926,27929
+proc vTcl:split_geom {geom} {vTcl:split_geom978,29081
+proc vTcl:get_win_position {w} {vTcl:get_win_position986,29325
+proc ::vTcl::lremove {varName args} {::vTcl::lremove991,29450
+proc lempty {list} {lempty1006,29762
+proc vTcl:namespace_tree {{root "::"}} {vTcl:namespace_tree1019,30090
+proc vTcl:copy_widgetname {} {vTcl:copy_widgetname1034,30397
+proc echo {args} {echo1038,30478
+proc incr0 {varName {num 1}} {incr01043,30548
+proc vTcl:WrongNumArgs {string} {vTcl:WrongNumArgs1049,30673
+proc vTcl:check_mouse_coords {} {vTcl:check_mouse_coords1053,30763
+proc vTcl:set_mouse_coords {X Y x y} {vTcl:set_mouse_coords1065,31023
+proc vTcl:rebind_button_1 {} {vTcl:rebind_button_11072,31167
+proc vTcl:lib:add_widgets_to_toolbar { list  band_name headerLabel } {vTcl:lib:add_widgets_to_toolbar1077,31286
+proc vTcl:lrmdups {list} {vTcl:lrmdups1095,31879
+proc vTcl:center {target {w 0} {h 0}} {vTcl:center1113,32408
+proc vTcl:raise_last_button {newButton} {vTcl:raise_last_button1133,33157
+  proc encode_file {filename} {encode_file1170,34595
+  proc encode {text} {encode1202,35503
+  proc decode {text} {decode1243,37105
+proc vTcl:formCompound:add {cpd type args} {vTcl:formCompound:add1283,38229
+proc vTcl:data_exchange_var {var1 var2 save_and_validate} {vTcl:data_exchange_var1310,38870
+proc vTcl:streq {s1 s2} {vTcl:streq1331,39336
+proc vTcl:entry {w args} {vTcl:entry1335,39417
+proc vTcl:read_file {file} {vTcl:read_file1352,40020
+proc ::vTcl::change {} {::vTcl::change1359,40132
+proc vTclWindow.vTcl.tkcon {args} {vTclWindow.vTcl.tkcon1368,40338
+proc vTcl:show_console {} {vTcl:show_console1379,40580
+proc ::vTcl::InitTkcon {} {::vTcl::InitTkcon1383,40647
+proc vTcl:canvas:see {c item} {vTcl:canvas:see1391,40823
+proc vTcl:WidgetVar {w varName {newVar ""}} {vTcl:WidgetVar1401,41086
+proc vTcl:replace_fixed_name {orig_name var_name} {vTcl:replace_fixed_name1411,41484
+proc ::vTcl::web_browser {} {::vTcl::web_browser1420,41719
+proc ::vTcl::OkButton {path args} {::vTcl::OkButton1442,42308
+proc ::vTcl::CancelButton {path args} {::vTcl::CancelButton1448,42467
+proc ::vTcl::BrowseButton {path args} {::vTcl::BrowseButton1454,42634
+proc ::vTcl::MessageBox {args} {::vTcl::MessageBox1459,42771
+proc vTcl:check_parent {target} {vTcl:check_parent1522,44669
+proc vTcl:fill_container {target} {vTcl:fill_container1529,44860
+proc check_aqua_displays {} {check_aqua_displays1567,46104
+proc is_dual_monitors {} {is_dual_monitors1587,46778
+proc vTcl:check_geometry {} {vTcl:check_geometry1600,47177
+proc vTcl:debug_dump_menu {target} {vTcl:debug_dump_menu1629,48370
+proc vTcl:isident {string  {widget ""}} {vTcl:isident1654,49134
+proc vTcl:incr_change {} {vTcl:incr_change1688,50260
+proc vTcl:image_change {} {vTcl:image_change1695,50413
+proc vTcl:printaliases {{msg ""}} {vTcl:printaliases1703,50633
+    proc publish {event args} {publish1716,51097
+    proc subscribe {event id callback} {subscribe1727,51411
+    proc unsubscribe {event id} {unsubscribe1732,51550
+    proc show_color {w variable args} {show_color1761,52219
+    proc select_color {w config_cmd variable args } {select_color1778,52811
+    proc set_command {target option config_cmd variable} {set_command1784,52994
+    proc set_font {config_cmd variable} {set_font1808,53866
+    proc set_image {config_cmd variable} {set_image1829,54804
+    proc enableAttribute {enableData enable} {enableAttribute1836,54996
+    proc checkAttribute {top option variable keyrelease_cmd} {checkAttribute1844,55216
+    proc newAttribute {target top option variable \newAttribute1852,55487
+    proc getCheckVariable {top option} {getCheckVariable2037,64394
+    proc setCommandTarget {top option target} {setCommandTarget2043,64588
+    proc setPending {} {setPending2049,64820
+proc vTcl:update_tabbed_variables { } {vTcl:update_tabbed_variables2059,65057
+
+name.tcl,170
+proc vTcl:get_name {type} {vTcl:get_name25,1022
+proc vTcl:ok_new_widget {} {vTcl:ok_new_widget41,1403
+proc vTclWindow.vTcl.name {args} {vTclWindow.vTcl.name48,1548
+
+new.tcl,186
+proc GetFolder {} {GetFolder32,1231
+proc Raise1 {} {Raise146,1571
+proc Done {} {Done57,1832
+proc vTclWindow.vTcl.newProjectWizard {args} {vTclWindow.vTcl.newProjectWizard87,2745
+
+popups.tcl,3323
+    proc {::menu_edit::delete_item} {top} {{::menu_edit::delete_item}58,2135
+    proc {::menu_edit::delete_menu_recurse} {menu} {{::menu_edit::delete_menu_recurse}93,3114
+    proc {::menu_edit::enable_editor} {top enable} {{::menu_edit::enable_editor}120,3813
+    proc {::menu_edit::enable_all_editors} {enable} {{::menu_edit::enable_all_editors}162,5423
+    proc {::menu_edit::set_uistate} {top} {{::menu_edit::set_uistate}173,5659
+    proc {::menu_edit::enable_toolbar_buttons} {top} {{::menu_edit::enable_toolbar_buttons}181,5910
+    proc {::menu_edit::fill_command} {top command} {{::menu_edit::fill_command}224,7179
+    proc {::menu_edit::fill_menu} {top m {level 0} {path {}}} {{::menu_edit::fill_menu}239,7690
+    proc {::menu_edit::fill_menu_list} {top m} {{::menu_edit::fill_menu_list}317,10551
+    proc {::menu_edit::get_menu_index} {top index ref_m ref_i} {{::menu_edit::get_menu_index}347,11515
+    proc {::menu_edit::move_item} {top direction} {{::menu_edit::move_item}357,11822
+    proc {::menu_edit::new_item} {top type} {{::menu_edit::new_item}416,13430
+    proc set_menu_item_defaults {menu {index {}}} {set_menu_item_defaults504,17449
+    proc findToplevel {menu} {findToplevel538,18944
+    proc {::menu_edit::post_context_new_menu} {top X Y} {{::menu_edit::post_context_new_menu}545,19165
+    proc {::menu_edit::post_new_menu} {top} {{::menu_edit::post_new_menu}552,19318
+    proc initBoxes {top m} {initBoxes563,19674
+    proc {::menu_edit::show_menu} {top index} {{::menu_edit::show_menu}590,20512
+    proc setGetBox {top option {var {}}} {setGetBox619,21385
+    proc keyRelease {top option var boxvar} {keyRelease636,21891
+    proc discoverOptions {} {discoverOptions650,22388
+    proc checkAttribute {m option checkVar} {checkAttribute678,23288
+    proc update_default_properties {menu index option value} {update_default_properties687,23551
+    proc fillProperties {top m i} {fillProperties700,24120
+    proc enableProperties {top enable} {enableProperties781,27462
+    proc configCmd {top option variable} {configCmd790,27747
+    proc initProperties {top m} {initProperties806,28301
+    proc {::menu_edit::toggle_tearoff} {top} {{::menu_edit::toggle_tearoff}840,29697
+    proc {::menu_edit::update_current} {top} {{::menu_edit::update_current}865,30377
+    proc {::menu_edit::close_all_editors} {} {{::menu_edit::close_all_editors}869,30482
+    proc {::menu_edit::browse_image} {top} {{::menu_edit::browse_image}882,30720
+    proc {::menu_edit::browse_font} {top} {{::menu_edit::browse_font}888,30908
+    proc {::menu_edit::click_listbox} {top} {{::menu_edit::click_listbox}897,31144
+    proc {::menu_edit::ask_delete_menu} {top} {{::menu_edit::ask_delete_menu}909,31495
+    proc {::menu_edit::includes_menu} {top m} {{::menu_edit::includes_menu}917,31743
+    proc {::menu_edit::open_existing_editor} {m} {{::menu_edit::open_existing_editor}945,32467
+    proc {::menu_edit::is_open_existing_editor} {m} {{::menu_edit::is_open_existing_editor}968,33094
+    proc {::menu_edit::refreshes_existing_editor} {top} {{::menu_edit::refreshes_existing_editor}983,33458
+    proc {::menu_edit::find_root_menu} {m} {{::menu_edit::find_root_menu}994,33805
+proc vTclWindow.vTclMenuEdit {base menu} {vTclWindow.vTclMenuEdit1012,34253
+
+prefs.tcl,1790
+proc vTcl:prefs:uninit {base} {vTcl:prefs:uninit38,1615
+proc vTcl:prefs:init {base width height} {vTcl:prefs:init42,1683
+proc vTclWindow.vTcl.prefs {{base ""}} {vTclWindow.vTcl.prefs166,6758
+proc {vTcl:prefs:data_exchange} {save_and_validate} {{vTcl:prefs:data_exchange}256,9902
+proc {vTcl:prefs:basics} {tab} {{vTcl:prefs:basics}423,18280
+proc {vTcl:prefs:browse_file} {varname} {{vTcl:prefs:browse_file}485,20818
+proc {vTcl:prefs:browse_font} {fontname} {{vTcl:prefs:browse_font}504,21185
+proc {vTcl:prefs:use_Tk_default_font} {fontname font} {{vTcl:prefs:use_Tk_default_font}520,21635
+proc {vTcl:prefs:use_TkMenuFont} {fontname} {{vTcl:prefs:use_TkMenuFont}526,21837
+proc vTcl:prefs:change_font {font_input} {vTcl:prefs:change_font541,22202
+proc {vTcl:prefs:fonts} {tab} {{vTcl:prefs:fonts}558,22879
+proc {vTcl:prefs:gui_fonts} {tab} {{vTcl:prefs:gui_fonts}781,32025
+proc vTcl:prefs:bgcolor_get {w} {vTcl:prefs:bgcolor_get839,34509
+proc vTcl:prefs:guibgcolor_get {w} {vTcl:prefs:guibgcolor_get851,34848
+proc vTcl:prefs:get_default_color {w visual variable} {vTcl:prefs:get_default_color864,35253
+proc vTcl:prefs:color_pref_get {w visual variable} {vTcl:prefs:color_pref_get876,35587
+proc vTcl:prefs:color_pref {w text variable} {vTcl:prefs:color_pref901,36588
+proc {vTcl:prefs:bgcolor} {tab} {{vTcl:prefs:bgcolor}926,37710
+proc {vTcl:prefs:project} {tab} {{vTcl:prefs:project}1048,42621
+proc {vTcl:prefs:images} {tab} {{vTcl:prefs:images}1097,44614
+proc vTcl:prefs:libs {tab} {vTcl:prefs:libs1119,45310
+proc vTcl:prefs:fillLibs {} {vTcl:prefs:fillLibs1131,45708
+proc vTcl:prefs:saveLibs {} {vTcl:prefs:saveLibs1155,46337
+proc vTcl:prefs:external {tab} {vTcl:prefs:external1182,47139
+proc vTcl:prefs:grid {tab} {vTcl:prefs:grid1197,47641
+
+proc.tcl,1173
+proc vTcl:delete_proc {name} {vTcl:delete_proc25,1053
+proc vTcl:find_new_procs {} {vTcl:find_new_procs42,1443
+proc vTcl:proc:get_args { name } {vTcl:proc:get_args47,1557
+proc vTcl:show_proc {name} {vTcl:show_proc61,1877
+proc vTcl:proclist:show {{on ""}} {vTcl:proclist:show88,3078
+proc vTcl:update_proc {base {close 1}} {vTcl:update_proc101,3485
+    proc $name $args \n$body\n$name133,4479
+proc vTcl:update_proc_list {{name {}}} {vTcl:update_proc_list149,4820
+proc vTcl:ignore_procname_when_sourcing {name} {vTcl:ignore_procname_when_sourcing176,5738
+proc vTcl:ignore_procname_when_saving {name} {vTcl:ignore_procname_when_saving192,6141
+proc vTcl:valid_procname {name} {vTcl:valid_procname204,6480
+proc vTclWindow.vTcl.proclist {args} {vTclWindow.vTcl.proclist214,6680
+proc vTclWindow.vTcl.proc {args} {vTclWindow.vTcl.proc295,9932
+    proc closed_project {base} {closed_project462,16348
+    proc edit_mode {base args} {edit_mode466,16414
+    proc test_mode {base args} {test_mode469,16457
+    proc edit_reset {base} {edit_reset473,16563
+    proc edit_change {w k} {edit_change480,16734
+    proc add_procs {procs} {add_procs509,17364
+
+propmgr.tcl,3046
+proc vTcl:show_propmgr {} {vTcl:show_propmgr36,1257
+proc vTcl:grid:height {parent {col 0}} {vTcl:grid:height40,1311
+proc vTcl:grid:width {parent {row 0}} {vTcl:grid:width50,1505
+proc vTcl:prop:set_visible {which {on ""}} {vTcl:prop:set_visible60,1694
+proc vTclWindow.vTcl.ae {args} {vTclWindow.vTcl.ae96,2509
+proc vTcl:prop:recalc_canvas {} {vTcl:prop:recalc_canvas243,8429
+proc vTcl:key_release_cmd {k config_cmd target option variable args} {vTcl:key_release_cmd272,9484
+proc vTcl:focus_out_cmd {} {vTcl:focus_out_cmd321,11376
+proc vTcl:prop:config_cmd {target option variable value args} {vTcl:prop:config_cmd340,11829
+proc vTcl:prop:spec_config_cmd {target option variable value args} {vTcl:prop:spec_config_cmd362,12586
+proc vTcl:prop:geom_config_mgr {target option variable value args} {vTcl:prop:geom_config_mgr375,12944
+proc vTcl:prop:geom_config_cmd {target option variable value args} {vTcl:prop:geom_config_cmd389,13366
+proc vTcl:prop:update_attr {} {vTcl:prop:update_attr403,13768
+proc vTcl:prop:combo_update {w var args} {vTcl:prop:combo_update606,21861
+proc vTcl:prop:combo_select {w option} {vTcl:prop:combo_select617,22133
+proc vTcl:prop:combo_edit {w option} {vTcl:prop:combo_edit621,22242
+proc vTcl:prop:choice_update {w var args} {vTcl:prop:choice_update625,22363
+proc vTcl:prop:choice_select {w var} {vTcl:prop:choice_select636,22634
+proc vTcl:prop:color_update {w val} {vTcl:prop:color_update644,22810
+proc vTcl:prop:new_attr {top option variable config_cmd \vTcl:prop:new_attr657,23149
+proc vTcl:prop:enable_manager_entry {option state} {vTcl:prop:enable_manager_entry951,35262
+proc vTcl:test_val {str widget} {vTcl:test_val970,35734
+proc vTcl:prop:clear {} {vTcl:prop:clear975,35815
+proc vTcl:prop:update_saves {w} {vTcl:prop:update_saves1017,36831
+proc vTcl:prop:save_opt {w opt varName} {vTcl:prop:save_opt1040,37541
+proc vTcl:prop:save_opt_value {w opt value} {vTcl:prop:save_opt_value1057,38002
+proc vTcl:propmgr:select_attr {top opt} {vTcl:propmgr:select_attr1075,38439
+proc vTcl:propmgr:deselect_attr {} {vTcl:propmgr:deselect_attr1083,38649
+proc vTcl:propmgr:focusOnLabel {w dir} {vTcl:propmgr:focusOnLabel1090,38872
+proc vTcl:propmgr:focusPrev {w} {vTcl:propmgr:focusPrev1113,39463
+proc vTcl:propmgr:focusNext {w} {vTcl:propmgr:focusNext1117,39536
+proc vTcl:propmgr:scrollToLabel {c w units} {vTcl:propmgr:scrollToLabel1121,39608
+proc vTcl:propmgr:show_rightclick_menu {base option variable X Y} {vTcl:propmgr:show_rightclick_menu1146,40387
+proc vTcl:prop:default_opt {vTcl:prop:default_opt1320,47472
+proc vTcl:prop:set_opt {w opt varName value} {vTcl:prop:set_opt1374,49628
+proc vTcl:prop:save_or_unsave_opt {w opt varName save_or_not} {vTcl:prop:save_or_unsave_opt1400,50235
+proc vTcl:prop:apply_opt {w opt varName extent action {user_param {}}} {vTcl:prop:apply_opt1435,51497
+proc vTcl:propmgr:scrollWheelMouse {delta label} {vTcl:propmgr:scrollWheelMouse1476,52501
+    proc setAlias {target aliasVar entryWidget} {setAlias1486,52701
+
+relative_path.tcl,58
+proc vTcl:relTo {targetfile currentpath} {vTcl:relTo1,0
+
+support_python_gen.tcl,2456
+proc vTcl:generate_python_support {} {vTcl:generate_python_support33,1099
+proc vTcl:replace_support_module {window} {vTcl:replace_support_module145,5278
+proc vTcl:read_support_module {} {vTcl:read_support_module154,5571
+proc vTcl:use_existing_support_module {window} {vTcl:use_existing_support_module167,5920
+proc vTcl:determine_updates {window} {vTcl:determine_updates183,6414
+proc vTcl:update_support_module {window} {vTcl:update_support_module196,6865
+proc vTcl:check_variable_list {} {vTcl:check_variable_list211,7329
+proc vTcl:check_function_list {} {vTcl:check_function_list233,7979
+proc vTcl:check_custom_list { } {vTcl:check_custom_list263,9336
+proc vTcl:gen_updated_source {} {vTcl:gen_updated_source279,9772
+proc vTcl:remove_multiple_blank_lines {block} {vTcl:remove_multiple_blank_lines369,12955
+proc vTcl:add_new_tk_vars {{type update}} {vTcl:add_new_tk_vars385,13318
+proc vTcl:add_new_functions {} {vTcl:add_new_functions400,13763
+proc vTcl:add_new_custom_stmts {} {vTcl:add_new_custom_stmts412,14166
+proc vTcl:analyze_existing_support_module {} {vTcl:analyze_existing_support_module421,14408
+proc vTcl:get_import_name { } {vTcl:get_import_name563,19248
+proc  vTcl:generate_support {window} {vTcl:generate_support572,19570
+proc vTcl:scan_widgets {window} {vTcl:scan_widgets679,22499
+proc vTcl:python_inspect_popup {} {vTcl:python_inspect_popup724,24070
+proc vTcl:python_inspect_widget {target} {vTcl:python_inspect_widget738,24491
+proc vTcl:python_inspect_config {widget widclass} {vTcl:python_inspect_config793,25990
+proc vTcl:invalid_syntax_response {widget} {vTcl:invalid_syntax_response899,30040
+proc vTcl:check_validate_cmd {cmd} {vTcl:check_validate_cmd911,30465
+proc vTcl:python_inspect_subwidgets {subwidget} {vTcl:python_inspect_subwidgets947,31437
+proc extract_up_to_period {str} {extract_up_to_period964,31882
+proc vTcl:extract_module_name {fun_list var_list import} {vTcl:extract_module_name975,32193
+proc vTcl:test_file_content {filename new_content} {vTcl:test_file_content1024,33729
+proc vTcl:save_python_file {filename prefix} {vTcl:save_python_file1057,34853
+proc  vTcl:python_inspect_menu_config {target} {vTcl:python_inspect_menu_config1092,36192
+proc vTcl:python_menu_support {opts} {vTcl:python_menu_support1127,37248
+proc vTcl:python_inspect_bind {target} {vTcl:python_inspect_bind1180,39265
+proc vTcl:save_support_file {} {vTcl:save_support_file1219,40732
+
+tclet.tcl,314
+proc vTcl:create_tclet {target} {vTcl:create_tclet28,1385
+proc vTcl:tclet:translate_options {opts} {vTcl:tclet:translate_options81,3462
+proc vTcl:tclet_from_cmpd {base name compound {level 0}} {vTcl:tclet_from_cmpd113,4239
+proc vTcl:gen_compound {target {name ""} {cmpdname ""}} {vTcl:gen_compound212,7931
+
+toolbar.tcl,369
+proc vTcl:toolbar_create {args} {vTcl:toolbar_create24,1009
+proc vTcl:toolbar_add {band_name class name image cmd_add } {vTcl:toolbar_add75,2897
+    proc toolbar_header { band_name title } {toolbar_header110,4442
+proc vTclWindow.vTcl.toolbar {args} {vTclWindow.vTcl.toolbar117,4652
+proc vTcl:toolbar_reflow {{base .vTcl.toolbar}} {vTcl:toolbar_reflow121,4721
+
+tops.tcl,846
+proc vTcl:wm_take_focus {target} {vTcl:wm_take_focus25,1031
+proc vTcl:destroy_top {target} {vTcl:destroy_top34,1232
+proc vTcl:show_top {target} {vTcl:show_top43,1395
+proc vTcl:hide_top {target} {vTcl:hide_top64,1970
+proc vTcl:update_top_list {} {vTcl:update_top_list74,2196
+proc vTcl:convert_tops {} {vTcl:convert_tops92,2677
+proc vTcl:bind_tops {} {vTcl:bind_tops109,3212
+proc vTcl:toplist:show {{on ""}} {vTcl:toplist:show124,3595
+proc vTcl:toplist:show_selection {base {show show}} {vTcl:toplist:show_selection137,3953
+proc vTclWindow.vTcl.toplist {args} {vTclWindow.vTcl.toplist149,4311
+    proc geom_config_event {id target cmd option} {geom_config_event236,7620
+    proc handleRunvisible {cmd} {handleRunvisible242,7790
+    proc editMode {id args} {editMode251,8045
+    proc testMode {id args} {testMode255,8121
+
+tree.tcl,767
+proc vTcl:show_selection_in_tree {widget_path} {vTcl:show_selection_in_tree28,1102
+proc vTcl:show_selection {button_path target} {vTcl:show_selection34,1255
+proc vTcl:show_wtree {} {vTcl:show_wtree77,2488
+proc vTcl:clear_wtree {} {vTcl:clear_wtree83,2586
+proc vTcl:left_click_tree {cmd i b j} {vTcl:left_click_tree94,2889
+proc vTcl:right_click_tree {i X Y x y} {vTcl:right_click_tree112,3463
+proc vTcl:get_tree_diff {path} {vTcl:get_tree_diff146,4349
+proc vTcl:count_children {w} {vTcl:count_children159,4649
+proc vTcl:indent {widget} {vTcl:indent176,5027
+proc vTcl:save_wtree {} {vTcl:save_wtree184,5220
+proc vTcl:init_wtree {{wants_destroy_handles 1}} {vTcl:init_wtree252,7399
+proc vTclWindow.vTcl.tree {args} {vTclWindow.vTcl.tree413,13094
+
+var.tcl,2296
+    proc {::inspector::contract_node} {listbox index} {{::inspector::contract_node}27,1078
+    proc {::inspector::delete_children} {listbox index level} {{::inspector::delete_children}51,1930
+    proc {::inspector::expand_array} {listbox node_index node_info level} {{::inspector::expand_array}70,2629
+    proc {::inspector::expand_namespace} {listbox node_index node_info level} {{::inspector::expand_namespace}95,3324
+    proc {::inspector::expand_node} {listbox index} {{::inspector::expand_node}117,4075
+    proc {::inspector::expand_procedures} {listbox node_index node_info level} {{::inspector::expand_procedures}141,4914
+    proc {::inspector::expand_variables} {listbox node_index node_info level} {{::inspector::expand_variables}160,5510
+    proc {::inspector::init} {listbox} {{::inspector::init}185,6346
+    proc {::inspector::insert_node} {listbox before_index node_text level {has_children no} {node_info {}} {item_commands {}}} {{::inspector::insert_node}197,6567
+    proc {::inspector::show_procedure} {node_info} {{::inspector::show_procedure}220,7338
+    proc {::inspector::show_variable} {node_info} {{::inspector::show_variable}243,8144
+    proc {::inspector::expand_packages} {listbox node_index node_info level} {{::inspector::expand_packages}262,8761
+    proc {::inspector::show_package} {node_info} {{::inspector::show_package}279,9205
+    proc {::inspector::expand_windows} {listbox node_index node_info level} {{::inspector::expand_windows}303,10069
+    proc {::inspector::expand_widget} {listbox node_index node_info level} {{::inspector::expand_widget}319,10501
+    proc {::inspector::show_widget} {node_info} {{::inspector::show_widget}342,11205
+    proc {::inspector::expand_bindtags} {listbox node_index node_info level} {{::inspector::expand_bindtags}362,11819
+    proc {::inspector::expand_bindtag} {listbox node_index node_info level} {{::inspector::expand_bindtag}379,12258
+    proc {::inspector::show_bind} {node_info} {{::inspector::show_bind}396,12710
+    proc {::inspector::expand_or_contract} {W {x -1} {y -1}} {{::inspector::expand_or_contract}416,13253
+    proc {::inspector::listbox_select} {W} {{::inspector::listbox_select}438,13868
+proc vTclWindow.vTcl.inspector {base} {vTclWindow.vTcl.inspector455,14298
+
+vtclib.tcl,551
+proc Window {args} {Window27,1065
+proc vTcl:WidgetProc {w args} {vTcl:WidgetProc62,2334
+proc vTcl:fixup_alias {alias} {vTcl:fixup_alias78,2860
+proc vTcl:compile_alias {top} {vTcl:compile_alias109,4011
+proc vTcl:DefineAlias {target alias widgetProc top_or_alias cmdalias} {vTcl:DefineAlias121,4333
+proc vTcl:FireEvent {target event {params {}}} {vTcl:FireEvent168,6333
+proc vTcl:WindowsCleanup {} {vTcl:WindowsCleanup201,7671
+proc {chasehelper} {filename {count 0}} {{chasehelper}222,8446
+proc {info_script} {} {{info_script}233,8760
+
+widget.tcl,4874
+proc vTcl:get_toplevel {target} {vTcl:get_toplevel39,1520
+proc vTcl:base_name {target} {vTcl:base_name53,1881
+proc vTcl:bind_scrollbar {t1 t2} {vTcl:bind_scrollbar124,3971
+proc vTcl:bind_pnotebook_closebutton {target} {vTcl:bind_pnotebook_closebutton159,4873
+proc vTcl:show {target} {vTcl:show171,5212
+proc vTcl:hide {} {vTcl:hide190,5893
+proc vTcl:set_insert {} {vTcl:set_insert211,6477
+proc vTcl:select_parent {} {vTcl:select_parent216,6561
+proc vTcl:select_toplevel {} {vTcl:select_toplevel223,6721
+proc vTcl:raise {target} {vTcl:raise230,6885
+proc vTcl:active_widget {target} {vTcl:active_widget244,7234
+proc vTcl:select_widget {target} {vTcl:select_widget283,8499
+proc vTcl:widget_tree {target {include_target 1}} {vTcl:widget_tree312,9364
+proc vTcl:list_widget_tree {target {which ""} {include_menus 0} \vTcl:list_widget_tree349,10420
+proc vTcl:complete_widget_tree {{root .} {wantsdiff 1}} {vTcl:complete_widget_tree385,11638
+proc vTcl:split_info {target} {vTcl:split_info417,12621
+proc vTcl:split_wm_info {target} {vTcl:split_wm_info456,13735
+proc vTcl:get_grid_stickies {sticky} {vTcl:get_grid_stickies505,15763
+proc vTcl:update_widget_info {target} {vTcl:update_widget_info518,16055
+proc vTcl:conf_to_pairs {conf opt} {vTcl:conf_to_pairs643,20181
+proc vTcl:new_widget_name {class base} {vTcl:new_widget_name667,20996
+proc vTcl:setup_vTcl:bind {target} {vTcl:setup_vTcl:bind701,22085
+proc vTcl:setup_bind {target} {vTcl:setup_bind714,22416
+proc vTcl:switch_mode {} {vTcl:switch_mode738,23161
+proc vTcl:setup_bind_tree {target} {vTcl:setup_bind_tree752,23526
+proc vTcl:setup_bind_widget {target} {vTcl:setup_bind_widget763,23786
+proc vTcl:setup_unbind {target} {vTcl:setup_unbind779,24264
+proc vTcl:setup_unbind_tree {target} {vTcl:setup_unbind_tree786,24427
+proc vTcl:setup_unbind_widget {target} {vTcl:setup_unbind_widget799,24741
+proc vTcl:can_insert {parent manager} {vTcl:can_insert812,25075
+proc vTcl:auto_place_widget {class {options ""}} {vTcl:auto_place_widget836,25766
+proc vTcl:rozen_dump_config {w spot} {vTcl:rozen_dump_config884,27474
+proc vTcl:create_widget {class options new_widg x y} {vTcl:create_widget891,27596
+proc vTcl:valid_alias {target alias} {vTcl:valid_alias1148,38473
+proc vTcl:set_alias {target {alias ""} {noupdate ""}} {vTcl:set_alias1173,39271
+proc vTcl:unset_alias {w} {vTcl:unset_alias1278,43044
+proc vTcl:get_top_level_or_alias {target} {vTcl:get_top_level_or_alias1322,44298
+proc vTcl:update_label {t} {vTcl:update_label1335,44517
+proc vTcl:set_textvar {t} {vTcl:set_textvar1353,44950
+proc vTcl:widget_dblclick {target X Y x y} {vTcl:widget_dblclick1366,45257
+proc vTcl:pack_after {target} {vTcl:pack_after1377,45547
+proc vTcl:pack_before {target} {vTcl:pack_before1388,45855
+proc vTcl:manager_update {mgr} {vTcl:manager_update1399,46165
+proc vTcl:insert_widget_in_text {t} {vTcl:insert_widget_in_text1454,48382
+proc vTcl:add_functions_to_rc_menu {} {vTcl:add_functions_to_rc_menu1466,48596
+proc vTcl:new_widget {autoplace class button {options ""}} {vTcl:new_widget1481,49037
+proc vTcl:place_widget {class button options rx ry x y} {vTcl:place_widget1535,50718
+proc vTcl:next_widget_name {class target {old_alias {}}} {vTcl:next_widget_name1611,53183
+proc vTcl:existing_aliases {{class "Toplevel"} target} {vTcl:existing_aliases1662,54765
+proc vTcl:update_aliases {} {vTcl:update_aliases1685,55513
+proc vTcl:widget:get_image {w} {vTcl:widget:get_image1704,56051
+proc vTcl:widget:get_tree_label {w} {vTcl:widget:get_tree_label1740,57128
+proc vTcl:widget:register_widget_custom {w} {vTcl:widget:register_widget_custom1790,58639
+proc vTcl:widget:register_widget_megachildren {w} {vTcl:widget:register_widget_megachildren1804,59143
+proc vTcl:widget:register_widget {w {save_options ""}} {vTcl:widget:register_widget1857,61190
+proc vTcl:widget:remove_unregistered_widgets {{w .}} {vTcl:widget:remove_unregistered_widgets1992,66249
+proc vTcl:widget:register_all_widgets {{w .}} {vTcl:widget:register_all_widgets2013,66993
+    proc saveOptions {w optionName} {saveOptions2022,67189
+    proc saveSubOptions {w args} {saveSubOptions2034,67562
+    proc iterateCompleteWidgetTree {root actionProc actionParam returnVal} {iterateCompleteWidgetTree2052,68101
+    proc getClasses {w args} {getClasses2060,68391
+    proc usedClasses {root} {usedClasses2072,68790
+    proc getLibrary {w arg} {getLibrary2084,69106
+    proc usedLibraries {root} {usedLibraries2090,69266
+    proc loadedLibraries {} {loadedLibraries2104,69682
+    proc verifyLibraries {libraries} {verifyLibraries2110,69853
+    proc queryInsertOptions {class addOptions refOptions} {queryInsertOptions2122,70219
+    proc getResources {w resourceType} {getResources2136,70711
+    proc usedResources {root resourceType} {usedResources2168,71746
